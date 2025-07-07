@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Roblox</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="login-box">
+    <h1>Roblox</h1>
+    <form onsubmit="handleLogin(event)">
+      <input type="text" placeholder="Username" id="username" required>
+      <input type="password" placeholder="Password" id="password" required>
+      <button type="submit">Log In</button>
+    </form>
+    <p class="warning">⚠️ This is a fake demo page for educational use only. Do not enter real info!</p>
+    <div id="fake-log">
+      <h3>Login Log (Demo Only)</h3>
+      <ul id="log-list"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
